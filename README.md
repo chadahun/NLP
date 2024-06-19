@@ -1,2 +1,2 @@
-# KG ML Project
-## libraray: <span>Pandas MatPlotLib Numpy Seaborn</span>
+# K-DIGITAL ML Project
+## libraray: Selenium / Pandas / Numpy / Scikit-learn / Gensim / WordCloud / SpaCy / Matplotlib / Nltk
