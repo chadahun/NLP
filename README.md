@@ -1,2 +1,8 @@
 # K-DIGITAL NLP Project
-## libraray: Selenium / Pandas / Numpy / Scikit-learn / Gensim / WordCloud / SpaCy / Matplotlib / Nltk
+## 사용한 라이브러리: Selenium / Pandas / Numpy / Scikit-learn / Gensim / WordCloud / SpaCy / Matplotlib / Nltk
+
+### 개발 공정
+#### 1. 잡코리아에서 합격 자소서 크롤링(합격자소서에 전문가 평이 1점~5점까지 있고 1/2점이 안좋은 자소서, 4/5점이 좋은 자소서라는 전제) 후 파파고에 한글 자소서를 넣어서 영어로 번역한것을 크롤링
+    ##### - 애로사항: 1~5점까지의 자소서들의 데이터 양이 일괄적이지가 않음 / 홈페이지 이용약관을 고려하지 않고 크롤링 유의사항 고려하지 않음 / 지금껏 배운 기술로는 한글의 전처리가 아쉬워서 영어로 번역
+#### 2. EDA, 워드클라우드 
+    ##### - 
