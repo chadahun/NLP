@@ -9,7 +9,7 @@
 #### 3. 벡터화(Doc2Vec, SpaCy) 모델링
      애로사항: SpaCy 모델로 벡터화 후 성능을 확인해 봤지만 성능이 원하는 만큼 나오지 않았을 뿐더러 SpaCy 모델 사용법 미흡 / 
 #### 4. 모델링(DecisionTreeClassifier, RandomForestClassifier) 및 하이퍼 파라미터 튜닝(GridSearchCV, RandomSearchCV)
-     애로사항: 모델간에 성능이 크게 차이나지 않음 / 처음엔 optuna를 사용하려 했지만 데이터가 많은 편이 아니라서 GridSearch나 RandomSearch 사용
+     애로사항: 모델간에 성능이 크게 차이나지 않음 / optuna를 사용해 봤지만 데이터가 많은 편이 아니라서 성능 면에서 크게 차이나지 않아 보이므로 GridSearch나 RandomSearch 사용
 #### 5. 모델링(Linear Regression, DecisionTreeRegressor, RandomForestRegressor)
      애로사항: 선형회귀 모델의 성능을 확인했을 때 RMSE는 괜찮게 나왔지만 R^2계수가 아주 낮게 나옴 / 회귀 모델은 사용할 만한 데이터가 아닌것으로 판단하여 성능만 확인 
 ### 데이터의 애로사항: 데이터가 많지 않기 때문에 증강을 고려해 봤지만 문서를 벡터화 한 데이터를 증강 시키는 것은 베스트 솔루션으로 보이지 않으므로 데이터 증강보다는 데이터 감축을 선택하여 데이터의 균형을 맞춤
