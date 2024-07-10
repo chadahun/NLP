@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+nltk
+gensim
+uvicorn
+selenium
+webdriver-manager
+lightgbm
+scikit-learn
+scipy==1.10.1
