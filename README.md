@@ -1,5 +1,5 @@
 # K-DIGITAL NLP Project
-## 사용한 라이브러리: fastapi / uvicorn / nltk / gensim / uvicorn / selenium / webdriver-manager / lightgbm / scikit-learn / scipy==1.10.1
+## 사용한 라이브러리: fastapi / uvicorn / nltk / gensim / selenium / webdriver-manager / lightgbm / scikit-learn / scipy==1.10.1
 
 ### 개발 공정
 #### 1. 잡코리아에서 개발 직군에 한하여 합격 자소서 크롤링(합격자소서에 전문가 평이 1점~5점까지 있고 1/2점이 안좋은 자소서, 4/5점이 좋은 자소서라는 전제) 후 파파고에 한글 자소서를 넣어서 영어로 번역한것을 크롤링
